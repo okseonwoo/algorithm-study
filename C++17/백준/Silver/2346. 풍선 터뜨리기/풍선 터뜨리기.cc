@@ -11,7 +11,7 @@ int main(void)
 	{
 		cin >> num;
 		dq.push_back(make_pair(num,i+1)); 
-    }
+        }
 	while (!dq.empty())
 	{
 		int cur = dq.front().first;
@@ -39,5 +39,5 @@ int main(void)
 		}
 	}
 
-
+	return 0;
 }
